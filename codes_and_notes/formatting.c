@@ -13,7 +13,7 @@ I can use this for database, json, php, csv, API, GET request.
 
 This code writes 3 variable into a certain format.
 When reading the data, depends on how the data is formatted, we can assign the data to different variable.
-Or the simple way, read the whole thing as a string.
+Or the simple way, read the whole thing as a string and use string search function
 
 I uses argv, argc for learning purposes. I foresee it to be used with shell scripting.
 */
