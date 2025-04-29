@@ -1,0 +1,38 @@
+7 Layer OSI
+
+1) Physical
+- Redundancy system
+- Uninterruptible power supply
+
+2) Data Link
+- Managed switch
+
+3) Network
+- Address Resolution Protocol (ARP) (IP::MAC ADDR)
+- Basic Firewall - Access Control List (ACL)(Router)
+- External firewall device
+
+4) Transport
+- Advance firewall - Intrusion detection system (IDS)
+- SSH key
+
+5) Session
+- Open socket session (socket(),connect(),listen(),accept(),send(),close())
+- HTTP GET request standard (RFC2616)
+- curl (have c lib) / wget (CLI)  
+- Stateful inspection firewall
+
+6) Presentation
+- Encryption and data formatting
+
+7) Application 
+- Container - Docker
+- Orchestration - kubenetes, ansible, terraform
+- SSH key 
+
+0) Others
+- Protocol Data Unit (PDU) (Header for each layer)
+- ACL/Firewall by opening or closing port
+- ACL/Firewall by Packet filtering
+- Packet capturing - tcpdump, wireshark
+- Strong Password
