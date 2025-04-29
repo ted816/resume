@@ -1,0 +1,50 @@
+1) Permission:
+$chmod 700 file_name
+$chmod u+x file_name (ugr, rwx)
+$umask 
+$vim ./bashrc // umask dir (umask 027)
+$source ./bashrc //
+
+$visudo // user1 ALL=(ALL) NOPASSWD:ALL
+
+$chattr +i /file // immutable
+$lsattr /file // immutable attribute display
+
+2) User etc
+$adduser user1
+$passwd user1
+// dir /etc/passwd or /etc/shadow
+$addgroup -g 8000 group_name
+// dir /etc/group
+$usermod -aG group_name user1
+$chgrp -R group_name /folder
+// 1 to 1000 is system group
+
+3) Find
+$find / -name *txt
+$find / -user user1
+$find / -perm 777
+$find /etc -type f -mtime -30 > 30days_modified.txt
+
+$) Service
+$systemctl status service // start stop restart disable is-enabled enable
+
+0) Others
+$lsblk -f
+$pvdisplay
+$mount /dev/sdc1 /opt/folder
+$top
+$kill 1234
+$nmcli
+$ip a
+$ssh user@192.168.1.1
+$ssh-keygen // .ssh/id_rsa or .ssh/rsa.pub
+$tcpdump // export tcpdump files and open with wireshark
+$ps
+$md5sum file1 >> file 2
+$sha1sum file1 >> file 2 
+$ln /dir /dir // hardlink
+$ln -s // symbolic link
+$diff file1.txt file2.txt
+$tar
+$gzip
