@@ -1,3 +1,24 @@
+/*
+gcc -o formatting formating.c
+./formatting write
+./formatting read
+./formatting read3
+./formatting write
+./formatting read3
+
+if you are testing the code, do take note on the directory.
+
+A code to understand the surface for text formatting.
+I can use this for database, json, php, csv, API, GET request.
+
+This code writes 3 variable into a certain format.
+When reading the data, depends on how the data is formatted, we can assign the data to different variable.
+Or the simple way, read the whole thing as a string.
+
+I uses argv, argc for learning purposes. I foresee it to be used with shell scripting.
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
