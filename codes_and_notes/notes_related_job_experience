@@ -3,9 +3,10 @@ IT related:
 2) Home/Office set up - router, printers, server, pc
 3) SSH set up - handles user interfance and credential
 4) level 1 switch, site survey installation ( Subsea/Oversea/DataCenter )
-5) Arch Linux basic setup
+5) Arch Linux basic setup ( Manual )
 6) Language: C, C++
-7) Current OS: Debian 12
+7) Current OS: Debian 12 
+- Understands the importance of dependency and version
 
 Engineering / Report related:
 1) Risk Accessment/ Risk Maxtrix
